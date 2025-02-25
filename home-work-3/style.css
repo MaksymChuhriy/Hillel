@@ -1,12 +1,15 @@
 body{
-    background-image: url('images/settlersofkalguur-bg.jpg'); 
+    background-color: #a38d6d;
+    /* background-image: url('images/settlersofkalguur-bg.jpg'); */
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-
+    
+   
+    
 }
-
+/* header css   */
 .header{
     display:flex;
     justify-content: space-between;
@@ -19,19 +22,22 @@ body{
 }
 
 .bar-links, .back-main{
- color: rgb(4,152,211);
+ color: #00b6ff;
  text-transform: uppercase;
  font-size:13px;
  text-decoration: none;
 }
+
 .top-account-bar{
    color: #a38d6d;
 }
+
 .lvl-image, .coins-image{
     height: 30px;
     display:inline-block;
     vertical-align: middle;
 }
+
 .logo{
     height:150px;
     
@@ -53,16 +59,37 @@ body{
     margin-left: 20px;
     flex-shrink:0;
 }
+
 .top-account-bar, .bottom-account-bar{
     display:flex;
     justify-content: space-between;
    align-content: center;
 }
 
-
-
 .back-main{
     margin-top:15px;
 }
+/* trade part css   */
 
-/*   */
+.trade{
+    max-width:1520px;
+    margin: 0 auto 64px;
+}
+.icon{
+    height:20px;
+}
+.navigation{
+    display:flex;
+    justify-content:space-between;
+   
+    
+}
+.navigation-button{
+    background-color: rgba(50,50,50,0.6);
+    margin: 0;
+    color: #e9cf9f;
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;
+    border:none;
+}
