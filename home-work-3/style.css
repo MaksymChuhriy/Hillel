@@ -1,6 +1,6 @@
 body{
-    background-color: #a38d6d;
-    /* background-image: url('images/settlersofkalguur-bg.jpg'); */
+  
+    background-image: url('images/settlersofkalguur-bg.jpg'); 
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,7 +40,7 @@ body{
 
 .logo{
     height:150px;
-    
+
 }
 
 .account-bar{
@@ -69,11 +69,12 @@ body{
 .back-main{
     margin-top:15px;
 }
-/* trade part css   */
 
+/* trade part css   */
 .trade{
     max-width:1520px;
     margin: 0 auto 64px;
+    font-family: Helvetica, sans-serif;
 }
 .icon{
     height:20px;
@@ -85,11 +86,96 @@ body{
     
 }
 .navigation-button{
-    background-color: rgba(50,50,50,0.6);
+    background-color: rgba(50,50,50,0.8);
     margin: 0;
     color: #e9cf9f;
     font-size: 1.1em;
     padding: 5px;
     text-align: center;
     border:none;
+}
+.search-panel{
+    color:white;
+    background:black;
+    border-top: 2px solid;
+    border-color:rgb(90,56,6);
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:2px;
+    
+}
+.search-left{
+    flex-shrink: 1;
+    flex-grow: 1;
+    width:50%;
+}
+.search-right{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+    width:50%;
+    justify-content:space-between;
+}
+.league-select , .platform-select, .online-select ,input{
+    background-color:rgba(48,51,58,1);
+    color:white;
+    border:0px;
+    height:35px;
+    margin:0px;
+    padding:5px;
+    width:100%;
+    box-sizing:border-box;
+    font-size:15px;
+}
+.form-size-1{
+    flex-grow:1;
+}
+.form-size-2{
+    flex-grow:2;
+}
+
+.button-panel{
+    background-color:black;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+}
+.center-button{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+.search-button, .filter-button{
+    background-color: rgb(15,48,77);
+    border:1px solid;
+    border-color: rgb(76,76,125);
+    height:35px;
+    color:white;
+    box-shadow: none;
+    
+}
+.clear-button{
+    background-color: rgba(48,51,58,1);
+    border:0px;
+    height:35px;
+}
+.clear-button, .filter-button{
+    padding:10px 20px;
+    color:white;
+
+}
+.search-button{
+    width:450px;
+}
+
+.footer{
+   position:fixed;
+   bottom:8px;
+   left:0;
+   right:0;
+   text-align:center;
+   color: #444;
 }
