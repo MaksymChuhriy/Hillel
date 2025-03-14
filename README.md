@@ -7,3 +7,4 @@ Home work №2: [https://maksymchuhriy/Hillel/home-work-2/](https://maksymchuhri
 Home work №3: [https://maksymchuhriy/Hillel/home-work-3/](https://maksymchuhriy.github.io/Hillel/home-work-3/)  
 Home work №4: [https://maksymchuhriy/Hillel/home-work-4/](https://maksymchuhriy.github.io/Hillel/home-work-4/)  
 Home work №5 was about github.  
+Home work №6: [https://maksymchuhriy/Hillel/home-work-6/](https://maksymchuhriy.github.io/Hillel/home-work-6/)  
