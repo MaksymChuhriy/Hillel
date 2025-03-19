@@ -41,7 +41,7 @@ body{
 }
 /* Positioning css */
 .car--absolute{
-    width: 100px;;
+    width: 100px;
     position:absolute;
     bottom:0;
     right: 8px;
