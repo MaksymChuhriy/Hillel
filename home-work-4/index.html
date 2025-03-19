@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="truth">Teacher told me never to do this and simply use classes, but here I am 🤷‍♂️ </div>
+
+<div>
+    <p>Applies to p tags nested inside a div at the first level, specificity 2</p>
+</div>
+
+<h1>Tag selector, specificity 1</h1>
+<p class="text">Class selector, specificity 10</p>
+<div id="unique">ID selector, specificity 100</div>
+<a href="#" title="link">Attribute selector, specificity 10</a>
+
+<div class="parent">
+    <p>Nested selector div p, specificity 2</p>
+</div>
+
+<div class="container">
+    <p>Child selector div > p, specificity 2</p>
+</div>
+
+<ul class="menu">
+    <li class="item">Selector sequence .menu .item specificity 20</li>
+</ul>
+
+<div>
+    <p class="text" id="highlight">Various selector combinations p.text#highlight, specificity 111</p>
+</div>
+
+<div>
+    <p class="special">Tag + class combination p.special, specificity 11</p>
+</div>
+
+<div data-type="important">
+    <p>Attribute selector data-type="important", specificity 10</p>
+</div>
+</body>
+
+</html>
