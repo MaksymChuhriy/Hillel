@@ -9,19 +9,46 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Main menu</a></li>
-                <li><a href="./csstest/normalize.html">Normalize.css</a></li>
-                <li><a href="./csstest/reset.html">Reset.css</a></li>
-                <li><a href="./csstest/mycss.html">My.css Test</a></li>
-                <li><a href="./positioning.html">Positioning</a></li>
-                <li><a href="./overflow.html">Overflow</a></li>
-                <li><a href="#">Float and Clear</a></li>
+    <header class="header">
+        <nav class="navigationBar">
+            <ul class="navigationBar_list">
+                <li class="navigation_container"><a class="navigation_link" href="./index.html">Main menu</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/normalize.html">Normalize.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/reset.html">Reset.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/mycss.html">My.css Test</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./positioning.html">Positioning</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./overflow.html">Overflow</a></li>
+                <li class="navigation_container"><a class="navigation_link--forbidden" href="#">Float and Clear</a></li>
             </ul>
         </nav>
     </header>
-    
+
+    <div class="container--float">
+        <div class="box--left">I am on left side <br> (float: left)</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facere 
+            fugiat voluptates nihil provident? Repellat, id natus eveniet dolore
+            voluptate officia libero corporis, dicta hic quas adipisci? Ex sequi,
+            unt maiores molestias voluptatibus porro ut architecto nostrum, 
+            atque minima aut excepturi aspernatur amet a harum tenetur recusandae
+            eos id ullam.</p>
+    </div>
+
+    <div class="container--float">
+        <div class="box--right">I am on right side! (float: right)</div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            maiores nulla asperiores rem libero similique,
+            impedit atque pariatur numquam expedita blanditiis tenetur
+            aperiam ex nostrum. Minima, consectetur? Amet aspernatur vitae
+            quae ipsam itaque ullam velit eos, tempore quis, mollitia culpa 
+            fugiat aperiam temporibus deleniti veritatis, error aliquam dolor.
+            Voluptates, quisquam?</p>
+    </div>
+
+    <div class="container--float">
+        <div class="box--left">I am on left side <br> (float: left)</div>
+        <div class="box--right">I am on right side! (float: right)</div>
+        <p>I am some text without clear!</p>
+        <p class="clear">This text is cleared and is below boxes!</p>
+    </div>
 </body>
 </html>

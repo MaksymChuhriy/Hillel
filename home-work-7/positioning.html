@@ -9,19 +9,36 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Main menu</a></li>
-                <li><a href="./csstest/normalize.html">Normalize.css</a></li>
-                <li><a href="./csstest/reset.html">Reset.css</a></li>
-                <li><a href="./csstest/mycss.html">My.css Test</a></li>
-                <li><a href="#">Positioning</a></li>
-                <li><a href="./overflow.html">Overflow</a></li>
-                <li><a href="./floatclear.html">Float and Clear</a></li>
+    <header class="header">
+        <nav class="navigationBar">
+            <ul class="navigationBar_list">
+                <li class="navigation_container"><a class="navigation_link" href="./index.html">Main menu</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/normalize.html">Normalize.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/reset.html">Reset.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/mycss.html">My.css Test</a></li>
+                <li class="navigation_container"><a class="navigation_link--forbidden" href="#">Positioning</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./overflow.html">Overflow</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./floatclear.html">Float and Clear</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="main_container">
+        <div class="greetings"> 
+            Hi,On this page you can see <strong>car</strong> on bottom right
+            with position absolute. <strong>Header</strong> with position fixed and <strong>foot</strong>
+            with position sticky!This text is static.
+        </div>
+        <div class="container--relative">
+            This text is relative
+        </div>
+    </div>
+
+    <div class="scroll_container">
+        <img class="foot-sticky" src="https://www.svgrepo.com/show/323370/sticky-boot.svg" alt="foot">
+    </div>
+    
+    <img class="car--absolute" src="https://www.svgrepo.com/show/513282/car.svg" alt="car">
     
 </body>
 </html>
