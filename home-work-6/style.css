@@ -1,0 +1,93 @@
+.header{
+    text-align:center;
+}
+table {
+    border-collapse: collapse;
+    width: 40vw;
+    height: 70vh;
+    min-width:500px;
+    min-height:700px;
+    margin-inline:auto;}
+
+td {
+    border: 10px solid black;}
+
+.white { 
+    background-color: white; }
+
+.yellow { 
+    background-color: yellow; }
+
+.black { 
+    background-color: black; 
+    color: white; }
+
+.blue { 
+    background-color: blue; 
+    color: white; }
+
+.red { 
+    background-color: red; 
+    color: white; }
+
+.a1, .b1, .c1 {
+    height: 11%;}
+    
+.a1 {
+    width: 25%;}
+    
+.b1 {
+    width: 37.5%;}
+    
+.c1 {
+    width: 25%;}
+    
+.a2, .d3, .e3 {
+    height: 22%;}
+    
+.a2 {
+    width: 6.25%;}
+    
+.d3, .e3 {
+    width: 25%;}
+    
+.c4, .c5 {
+    height: 11%;}
+    
+.c4 {
+    width: 25%;}
+    
+.c5 {
+    width: 12.5%;}
+    
+.d1 {
+    height: 66%;
+    width: 5%;}
+    
+.e5 {
+    height: 11%;
+    width: 5%;}
+    
+.b2 {
+    height: 33.33%;
+    width: 33.33%;}
+    
+.a3 {
+    height: 33.33%;
+    width: 6.25%;}
+    
+.b4 {
+    height: 18.5%;
+    width: 31.25%;}
+    
+.d5 {
+    height: 22.22%;
+    width: 25%;}
+    
+.d7 {
+    height: 7%;
+    width: 31.25%;}
+    
+.a5 {
+    height: 33.33%;
+    width: 13%;}
