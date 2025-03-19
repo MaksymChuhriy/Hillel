@@ -10,23 +10,47 @@
     
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Main menu</a></li>
-                <li><a href="./csstest/normalize.html">Normalize.css</a></li>
-                <li><a href="./csstest/reset.html">Reset.css</a></li>
-                <li><a href="./csstest/mycss.html">My.css Test</a></li>
-                <li><a href="./positioning.html">Positioning</a></li>
-                <li><a href="#">Overflow</a></li>
-                <li><a href="./floatclear.html">Float and Clear</a></li>
+    <header class="header">
+        <nav class="navigationBar">
+            <ul class="navigationBar_list">
+                <li class="navigation_container"><a class="navigation_link" href="./index.html">Main menu</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/normalize.html">Normalize.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/reset.html">Reset.css</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./csstest/mycss.html">My.css Test</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./positioning.html">Positioning</a></li>
+                <li class="navigation_container"><a class="navigation_link--forbidden" href="#">Overflow</a></li>
+                <li class="navigation_container"><a class="navigation_link" href="./floatclear.html">Float and Clear</a></li>
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <div class="content">
-            Це вміст, який перевищує розміри контейнера. Прокрутіть вниз і вправо, щоб побачити більше тексту.
-        </div>
+<div class="wraper--flex">
+    <div class="container_overflow">
+        <strong> No overflow </strong> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
     </div>
+    
+    <div class="container_overflow--scroll">
+        <strong> Overflow scroll</strong> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+    
+    <div class="container_overflow--hidden">
+        <strong> Overflow-hiden </strong> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+    
+    <div class="container_overflow--auto">
+        <strong> Overflow-auto </strong> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+</div>
 </body>
 </html>
