@@ -12,32 +12,32 @@
 </head>
 <body>
     <header class="header">
-    <div class="placeholder-left">
+    <div class="placeholder">
         <nav class="navbar">
             <ul class="navbar__list">
-                <li><a class="navbar__link" href="#">Home</a></li>
-                <li><a class="navbar__link" href="#">About</a></li>
-                <li><a class="navbar__link" href="#">Works</a></li>
-                <li><a class="navbar__link" href="#">Process</a></li>
-                <li><a class="navbar__link" href="#">Contacts</a></li>
+                <li class="navbar__item"><a class="navbar__link active" href="#">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">About</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Works</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Process</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Contacts</a></li>
             </ul>
         </nav>
     
-        <div class="design">
-            <div class="design__title">Design and Layout</div>
+        <div class="design-container">
+            <h1 class="design__title">Design and Layout</h1>
             <div class="design__text">
                 Lorem Ipsum is a placeholder text commonly used in printing and web design. 
                 Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
             </div>
-            <button class="design__button" href="#">Write to me</>
+            <button class="design__button">Write to me</button>
         </div>
     </div>
 
    
     </header>
 
-    <div class="about">
-        <div class="about__title">About Me</div>
+    <div class="about-container">
+        <h2 class="about__title">About Me</h2>
         <div class="about__text">
             Lorem Ipsum is a placeholder text commonly used in printing and web design. 
             Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
@@ -84,16 +84,29 @@
                 <div class="project__text-name">projects</div>
             </div>
         </div>
+
+        <div class="project__square">
+            <img src="./project.png" alt="project">
+            <div class="project__text">
+                <div class="project__text-number">40+</div>
+                <div class="project__text-name">projects</div>
+            </div>
+        </div>
     </div>
 
     <div class="work-container">
-        <div class="work__title">How i work</div>
-        <div class="work__text">Lorem Ipsum is a placeholder text commonly used in printing and web design. 
+        <div class="work__placeholder">
+            <div class="work__title">How i Work</div>
+            <div class="work__text">Lorem Ipsum is a placeholder text commonly used in printing and web design. 
             Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
+            </div>
         </div>
-
-        <img class="work__video" src="./Rectangle5.png" alt="video">
-        
+        <iframe class="work__video"
+            src="https://www.youtube.com/embed/5kpva4j7jm0"
+            title="Work Video"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
     </div>
 
     <footer class="footer">
